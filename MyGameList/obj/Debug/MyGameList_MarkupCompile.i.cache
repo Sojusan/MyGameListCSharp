@@ -1,0 +1,20 @@
+﻿MyGameList
+
+
+winexe
+C#
+.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\
+MyGameList
+none
+false
+DEBUG;TRACE
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\App.xaml
+44812635717
+
+58-363932859
+311564940986
+AppWindow.xaml;MainWindow.xaml;Models\FriendElement.xaml;Models\HistoryElement.xaml;Models\InfoOverlay.xaml;Models\NewReviewElement.xaml;Models\RecentFriendUpdate.xaml;Models\ReviewElement.xaml;Pages\AccountPage.xaml;Pages\AdministrativePanelModeratorPage.xaml;Pages\AdministrativePanelPage.xaml;Pages\AdministrativePanelRequestedGamesPage.xaml;Pages\AdministrativePanelRequestedStudiosPage.xaml;Pages\FriendRequestsPage.xaml;Pages\GameListPage.xaml;Pages\HistoryPage.xaml;Pages\FriendsPage.xaml;Pages\ReviewPage.xaml;Pages\GamePage.xaml;Pages\NewReviewPage.xaml;Pages\LoginPage.xaml;Pages\MenuPage.xaml;Pages\NotificationPanelPage.xaml;Pages\RegisterPage.xaml;Pages\SearchPage.xaml;Windows\AddingGameToGamelistWindow.xaml;Windows\AddNewGenreWindow.xaml;Windows\AddNewPlatformWindow.xaml;Windows\AdministrativePanelGameWindow.xaml;Windows\AdministrativePanelStudioWindow.xaml;Windows\CodeValidationWindow.xaml;Windows\DeleteFromFollowConfirmationWindow.xaml;Windows\DeleteFromGameListConfirmationWindow.xaml;Windows\DeleteGameWindow.xaml;Windows\DemoteToNormalWindow.xaml;Windows\EditAccountWindow.xaml;Windows\EditingGameFromGameListWindow.xaml;Windows\LoginValidationWindow.xaml;Windows\MarkAsReadedConfirmationWindow.xaml;Windows\PasswordChangerWindow.xaml;Windows\PromoteToModeratorWindow.xaml;Windows\RequestGameWindow.xaml;Windows\RequestStudioWindow.xaml;Windows\MessageWindow.xaml;
+
+False
+

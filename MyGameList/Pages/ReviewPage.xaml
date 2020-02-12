@@ -1,0 +1,63 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyGameList.Pages"
+      xmlns:syncfusion="http://schemas.syncfusion.com/wpf" xmlns:Models="clr-namespace:MyGameList.Models" x:Class="MyGameList.Pages.ReviewPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1200"
+      Title="ReviewPage" Background="White">
+
+    <Grid>
+        <TextBlock x:Name="TitleTextBlock" HorizontalAlignment="Left" Margin="10,5,0,0" TextWrapping="Wrap" Text="Placeholder Title" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Image x:Name="CoverImage" HorizontalAlignment="Left" Height="260" Margin="54,38,0,0" VerticalAlignment="Top" Width="190" Source="/MyGameList;component/Resources/gamePlaceholder.jpg" Stretch="Fill"/>
+        <Label Content="Information" HorizontalAlignment="Left" Margin="10,313,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Separator HorizontalAlignment="Left" Height="10" Margin="10,339,0,0" VerticalAlignment="Top" Width="288"/>
+        <StackPanel HorizontalAlignment="Left" Height="345" Margin="22,354,0,0" VerticalAlignment="Top" Width="262">
+            <DockPanel LastChildFill="False" Margin="0,0,0,5">
+                <TextBlock Height="18" TextWrapping="Wrap" Text="Studio" VerticalAlignment="Top" Width="70" Margin="0"/>
+                <TextBlock x:Name="StudioTextBlock" TextWrapping="Wrap" Text="Studio Placeholder" VerticalAlignment="Top" Width="185" Height="16" Margin="0"/>
+            </DockPanel>
+            <DockPanel LastChildFill="False" Margin="0,0,0,5">
+                <TextBlock Height="17" TextWrapping="Wrap" Text="Publisher" VerticalAlignment="Top" Width="70" Margin="0"/>
+                <TextBlock x:Name="PublisherTextBlock" TextWrapping="Wrap" Text="Publisher Placeholder" VerticalAlignment="Top" Height="17" Width="190" Margin="0"/>
+            </DockPanel>
+            <DockPanel LastChildFill="False" Margin="0,0,0,5">
+                <TextBlock TextWrapping="Wrap" Text="Premiere" VerticalAlignment="Top" Width="70" Margin="0"/>
+                <TextBlock x:Name="PremiereTextBlock" TextWrapping="Wrap" Text="Placeholder date 00.00.00" VerticalAlignment="Top" Width="186" Height="14" Margin="0"/>
+            </DockPanel>
+            <DockPanel LastChildFill="False" Margin="0,0,0,5">
+                <TextBlock TextWrapping="Wrap" Text="Platforms" VerticalAlignment="Top" Width="70" Margin="0"/>
+                <TextBlock x:Name="PlatformsTextBlock" TextWrapping="Wrap" Text="PC, PS4, PS3, PS2, PS1, SWITCH, 3DS, 2DS, DS, ATARI" VerticalAlignment="Top" Width="180" Margin="0"/>
+            </DockPanel>
+            <DockPanel LastChildFill="False">
+                <TextBlock TextWrapping="Wrap" Text="Genres" VerticalAlignment="Top" Width="70" Margin="0"/>
+                <TextBlock x:Name="GenresTextBlock" TextWrapping="Wrap" Text="Action, Adventure, Role-Playing-Game, Clicker, Point&amp;Click" VerticalAlignment="Top" Height="31" Width="177" Margin="0"/>
+            </DockPanel>
+        </StackPanel>
+        <Separator HorizontalAlignment="Left" Height="1" Margin="-31,375,0,0" VerticalAlignment="Top" Width="673" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Label Content="Review" HorizontalAlignment="Left" Margin="321,33,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Separator HorizontalAlignment="Left" Height="8" Margin="321,59,0,0" VerticalAlignment="Top" Width="869"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="648" Margin="321,72,0,0" VerticalAlignment="Top" Width="879" VerticalScrollBarVisibility="Auto">
+            <WrapPanel x:Name="ReviewsWrapPanel" Width="860">
+
+                <Models:ReviewElement/>
+                <Models:ReviewElement/>
+                <Models:ReviewElement/>
+                <Models:ReviewElement/>
+
+            </WrapPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

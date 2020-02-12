@@ -1,0 +1,33 @@
+﻿<Page x:Class="MyGameList.Pages.GameListPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyGameList.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1200"
+      Title="GameListPage" Background="White">
+
+    <Grid>
+        <DockPanel HorizontalAlignment="Left" LastChildFill="False" Margin="167,10,0,0" VerticalAlignment="Top">
+            <Button Click="AllGamesButton_Clicked" Content="All Games" VerticalAlignment="Top" Background="White" BorderBrush="#FF0FB200" Margin="0,0,15,0" FontSize="20" Cursor="Hand"/>
+            <Button Click="CurrentlyPlayingButton_Clicked" Content="Currently Playing" VerticalAlignment="Top" Background="White" BorderBrush="#FF0FB200" Margin="0,0,15,0" FontSize="20" Cursor="Hand"/>
+            <Button Click="CompletedButton_Clicked" Content="Completed" VerticalAlignment="Top" BorderBrush="#FF0FB200" Background="White" Margin="0,0,15,0" FontSize="20" Cursor="Hand"/>
+            <Button Click="OnHoldButton_Clicked" Content="On Hold" VerticalAlignment="Top" BorderBrush="#FF0FB200" Background="White" Margin="0,0,15,0" FontSize="20" Cursor="Hand"/>
+            <Button Click="DroppedButton_Clicked" Content="Dropped" VerticalAlignment="Top" BorderBrush="#FF0FB200" Background="White" Margin="0,0,15,0" FontSize="20" Cursor="Hand"/>
+            <Button Click="PlanToPlayButton_Clicked" Content="Plan To Play" VerticalAlignment="Top" BorderBrush="#FF0FB200" Background="White" FontSize="20" Cursor="Hand"/>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" LastChildFill="False" Margin="868,17,0,0" VerticalAlignment="Top">
+            <TextBlock TextWrapping="Wrap" Text="Viewing" VerticalAlignment="Top" Margin="0,0,10,0"/>
+            <TextBlock x:Name="NicknameTextBlock" TextWrapping="Wrap" Text="Placeholder" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <TextBlock TextWrapping="Wrap" Text="'s GameList" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        </DockPanel>
+        <TextBlock x:Name="StatusTextBlock" HorizontalAlignment="Left" Margin="41,45,0,0" TextWrapping="Wrap" Text="Choose" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
+        <Separator HorizontalAlignment="Left" Height="8" Margin="10,77,0,0" VerticalAlignment="Top" Width="1180"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="635" Margin="0,85,0,0" VerticalAlignment="Top" Width="1200" VerticalScrollBarVisibility="Auto">
+            <WrapPanel x:Name="ImagesWrapPanel" Width="1200" ItemHeight="260" ItemWidth="195">
+            </WrapPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

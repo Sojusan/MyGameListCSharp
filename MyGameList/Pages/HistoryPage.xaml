@@ -1,0 +1,338 @@
+﻿<Page x:Class="MyGameList.Pages.HistoryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyGameList.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1200"
+      Title="HistoryPage" Background="White">
+
+    <Grid>
+        <DockPanel HorizontalAlignment="Left" LastChildFill="False" Margin="10,10,0,0" VerticalAlignment="Top">
+            <TextBlock x:Name="NicknameTextBlock" TextWrapping="Wrap" Text="Placeholder" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+            <TextBlock TextWrapping="Wrap" Text="'s History" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        </DockPanel>
+        <Separator HorizontalAlignment="Left" Height="5" Margin="10,42,0,0" VerticalAlignment="Top" Width="1180"/>
+        <ScrollViewer HorizontalAlignment="Left" Margin="0,52,0,0" VerticalAlignment="Top" Width="1200" Height="668" VerticalScrollBarVisibility="Auto">
+            <WrapPanel x:Name="HistoryWrapPanel" Width="1200">
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Margin="15,0,0,15">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Margin="15,0,0,15">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Margin="15,0,0,15">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Margin="15,0,0,15">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Margin="15,0,0,15">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                    <Image Height="100" Source="/MyGameList;component/Resources/gamePlaceholder.jpg"/>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Title" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder date 00.00.00" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Status" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Text="Placeholder Score"/>
+                    </StackPanel>
+                </StackPanel>
+            </WrapPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

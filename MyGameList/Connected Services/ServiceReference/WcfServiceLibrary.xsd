@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfServiceLibrary" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfServiceLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/System.Data.Linq" />
+  <xs:complexType name="ArrayOfAccount">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Account" nillable="true" type="tns:Account" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAccount" nillable="true" type="tns:ArrayOfAccount" />
+  <xs:complexType name="Account">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nickname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sex" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Joined" type="xs:dateTime" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Linq" minOccurs="0" name="Avatar" nillable="true" type="q1:Binary" />
+      <xs:element minOccurs="0" name="IsModerator" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsAdmin" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsActivated" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Follows" nillable="true" type="tns:ArrayOfFollow">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Friends" nillable="true" type="tns:ArrayOfFriend">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Friends1" nillable="true" type="tns:ArrayOfFriend">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="GameLists" nillable="true" type="tns:ArrayOfGameList">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Account" nillable="true" type="tns:Account" />
+  <xs:complexType name="ArrayOfFollow">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Follow" nillable="true" type="tns:Follow" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFollow" nillable="true" type="tns:ArrayOfFollow" />
+  <xs:complexType name="Follow">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Account_Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Game_Id" type="xs:int" />
+      <xs:element minOccurs="0" name="NewReview" type="xs:int" />
+      <xs:element minOccurs="0" name="DateOfFollowing" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Follow" nillable="true" type="tns:Follow" />
+  <xs:complexType name="ArrayOfFriend">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Friend" nillable="true" type="tns:Friend" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFriend" nillable="true" type="tns:ArrayOfFriend" />
+  <xs:complexType name="Friend">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Account_Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Friend_Id" type="xs:int" />
+      <xs:element minOccurs="0" name="DateOfAdding" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IsAcceptedByBoth" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Friend" nillable="true" type="tns:Friend" />
+  <xs:complexType name="ArrayOfGameList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GameList" nillable="true" type="tns:GameList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGameList" nillable="true" type="tns:ArrayOfGameList" />
+  <xs:complexType name="GameList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Account_Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Game_Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Score" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Review" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DateOfAddingReview" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DateOfAddition" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GameList" nillable="true" type="tns:GameList" />
+  <xs:complexType name="ArrayOfGame">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Game" nillable="true" type="tns:Game" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGame" nillable="true" type="tns:ArrayOfGame" />
+  <xs:complexType name="Game">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Studio_Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Publisher" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.Data.Linq" minOccurs="0" name="Image" nillable="true" type="q2:Binary" />
+      <xs:element minOccurs="0" name="Premiere" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DateOfAddiction" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IsAccepted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Follows" nillable="true" type="tns:ArrayOfFollow">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Game_genres" nillable="true" type="tns:ArrayOfGame_genre">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Game_platforms" nillable="true" type="tns:ArrayOfGame_platform">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="GameLists" nillable="true" type="tns:ArrayOfGameList">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Game" nillable="true" type="tns:Game" />
+  <xs:complexType name="ArrayOfGame_genre">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Game_genre" nillable="true" type="tns:Game_genre" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGame_genre" nillable="true" type="tns:ArrayOfGame_genre" />
+  <xs:complexType name="Game_genre">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Game_Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Genre_Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Game_genre" nillable="true" type="tns:Game_genre" />
+  <xs:complexType name="ArrayOfGame_platform">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Game_platform" nillable="true" type="tns:Game_platform" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGame_platform" nillable="true" type="tns:ArrayOfGame_platform" />
+  <xs:complexType name="Game_platform">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Game_Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Platform_Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Game_platform" nillable="true" type="tns:Game_platform" />
+  <xs:complexType name="ArrayOfStudio">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Studio" nillable="true" type="tns:Studio" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStudio" nillable="true" type="tns:ArrayOfStudio" />
+  <xs:complexType name="Studio">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Studio1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Indie" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsAccepted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Games" nillable="true" type="tns:ArrayOfGame">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Studio" nillable="true" type="tns:Studio" />
+  <xs:complexType name="ArrayOfPlatform">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Platform" nillable="true" type="tns:Platform" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPlatform" nillable="true" type="tns:ArrayOfPlatform" />
+  <xs:complexType name="Platform">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Platform1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Game_platforms" nillable="true" type="tns:ArrayOfGame_platform">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Platform" nillable="true" type="tns:Platform" />
+  <xs:complexType name="ArrayOfGenre">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Genre" nillable="true" type="tns:Genre" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGenre" nillable="true" type="tns:ArrayOfGenre" />
+  <xs:complexType name="Genre">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Genre1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Game_genres" nillable="true" type="tns:ArrayOfGame_genre">
+        <xs:annotation>
+          <xs:appinfo>
+            <DefaultValue EmitDefaultValue="false" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Genre" nillable="true" type="tns:Genre" />
+</xs:schema>

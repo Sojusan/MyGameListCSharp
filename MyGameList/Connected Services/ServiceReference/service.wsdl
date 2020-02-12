@@ -1,0 +1,1181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfServiceLibrary" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/System.Data.Linq" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetAllAccounts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAccounts" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllAccounts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAccountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsUniqueLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsUniqueLogin" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsUniqueLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsUniqueLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsUniqueEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsUniqueEmail" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsUniqueEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsUniqueEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsUniqueNickname_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsUniqueNickname" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsUniqueNickname_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsUniqueNicknameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAccount" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccount" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAccount" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAvatar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvatar" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAvatar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvatarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllGamesByDateOfAddiction_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllGamesByDateOfAddiction" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllGamesByDateOfAddiction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllGamesByDateOfAddictionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameScore_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameScore" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameScore_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameScoreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAccountAverageScore_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountAverageScore" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAccountAverageScore_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountAverageScoreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNumberOfScores_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumberOfScores" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNumberOfScores_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumberOfScoresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSumOfNewReviews_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSumOfNewReviews" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSumOfNewReviews_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSumOfNewReviewsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameMembers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameMembers" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameMembers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameMembersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameByTitle_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameByTitle" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameByTitle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameByTitleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameById" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGame" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStudioName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStudioName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStudioName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStudioNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGamePlatforms_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGamePlatforms" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGamePlatforms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGamePlatformsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPlatform_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPlatform" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPlatform_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPlatformResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameGenres_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameGenres" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameGenres_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameGenresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGenre_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGenre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGenre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameListByAccountId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameListByAccountId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameListByAccountId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameListByAccountIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFollowListByAccountId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFollowListByAccountId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFollowListByAccountId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFollowListByAccountIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteFollowEntry_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFollowEntry" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteFollowEntry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFollowEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGameListEntry_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGameListEntry" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGameListEntry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGameListEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewFollow_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewFollow" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewFollow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewFollowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGameList_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGameList" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGameList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGameListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewGameList_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewGameList" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewGameList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewGameListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFriendListByAccountId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFriendListByAccountId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFriendListByAccountId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFriendListByAccountIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAccountById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountById" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAccountById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteFriend_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFriend" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteFriend_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertFriend_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFriend" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertFriend_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateFriend_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFriend" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateFriend_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameListByGameId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameListByGameId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameListByGameId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameListByGameIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFriendRequests_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFriendRequests" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFriendRequests_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFriendRequestsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateFollow_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFollow" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateFollow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFollowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFriendListBothAcceptedByAccountId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFriendListBothAcceptedByAccountId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFriendListBothAcceptedByAccountId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFriendListBothAcceptedByAccountIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStudioList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStudioList" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStudioList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStudioListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewStudio_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewStudio" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewStudio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewStudioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllPlatforms_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllPlatforms" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllPlatforms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllPlatformsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllGenres_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllGenres" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAllGenres_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllGenresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsGameAlreadyExist_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsGameAlreadyExist" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsGameAlreadyExist_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsGameAlreadyExistResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStudioByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStudioByName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetStudioByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStudioByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewGame" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewGamePlatform_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewGamePlatform" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewGamePlatform_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewGamePlatformResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewGameGenre_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewGameGenre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewGameGenre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewGameGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPlatformId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPlatformId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPlatformId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPlatformIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGenreId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGenreId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGenreId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGenreIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRequestedGames_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequestedGames" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRequestedGames_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequestedGamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRequestedStudios_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequestedStudios" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRequestedStudios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequestedStudiosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGamePlatformsList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGamePlatformsList" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGamePlatformsList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGamePlatformsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameGenresList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameGenresList" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameGenresList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameGenresListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteAllGamePlatforms_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAllGamePlatforms" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteAllGamePlatforms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAllGamePlatformsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteAllGameGenres_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAllGameGenres" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteAllGameGenres_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAllGameGenresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGameEntry_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGameEntry" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGameEntry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGameEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateStudio_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStudio" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateStudio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStudioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteStudio_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteStudio" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteStudio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteStudioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewPlatform_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewPlatform" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewPlatform_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewPlatformResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewGenre_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewGenre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewGenre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewGenreResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetAllAccounts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAllAccounts" message="tns:IService1_GetAllAccounts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAllAccountsResponse" message="tns:IService1_GetAllAccounts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUniqueLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/IsUniqueLogin" message="tns:IService1_IsUniqueLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/IsUniqueLoginResponse" message="tns:IService1_IsUniqueLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUniqueEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/IsUniqueEmail" message="tns:IService1_IsUniqueEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/IsUniqueEmailResponse" message="tns:IService1_IsUniqueEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUniqueNickname">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/IsUniqueNickname" message="tns:IService1_IsUniqueNickname_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/IsUniqueNicknameResponse" message="tns:IService1_IsUniqueNickname_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddAccount" message="tns:IService1_AddAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddAccountResponse" message="tns:IService1_AddAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAccount" message="tns:IService1_GetAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAccountResponse" message="tns:IService1_GetAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateAccount" message="tns:IService1_UpdateAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateAccountResponse" message="tns:IService1_UpdateAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAvatar" message="tns:IService1_GetAvatar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAvatarResponse" message="tns:IService1_GetAvatar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGamesByDateOfAddiction">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAllGamesByDateOfAddiction" message="tns:IService1_GetAllGamesByDateOfAddiction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAllGamesByDateOfAddictionResponse" message="tns:IService1_GetAllGamesByDateOfAddiction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameScore">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameScore" message="tns:IService1_GetGameScore_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameScoreResponse" message="tns:IService1_GetGameScore_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountAverageScore">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAccountAverageScore" message="tns:IService1_GetAccountAverageScore_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAccountAverageScoreResponse" message="tns:IService1_GetAccountAverageScore_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNumberOfScores">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNumberOfScores" message="tns:IService1_GetNumberOfScores_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNumberOfScoresResponse" message="tns:IService1_GetNumberOfScores_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSumOfNewReviews">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSumOfNewReviews" message="tns:IService1_GetSumOfNewReviews_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSumOfNewReviewsResponse" message="tns:IService1_GetSumOfNewReviews_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameMembers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameMembers" message="tns:IService1_GetGameMembers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameMembersResponse" message="tns:IService1_GetGameMembers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameByTitle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameByTitle" message="tns:IService1_GetGameByTitle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameByTitleResponse" message="tns:IService1_GetGameByTitle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameById" message="tns:IService1_GetGameById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameByIdResponse" message="tns:IService1_GetGameById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateGame" message="tns:IService1_UpdateGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateGameResponse" message="tns:IService1_UpdateGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStudioName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetStudioName" message="tns:IService1_GetStudioName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetStudioNameResponse" message="tns:IService1_GetStudioName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGamePlatforms">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGamePlatforms" message="tns:IService1_GetGamePlatforms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGamePlatformsResponse" message="tns:IService1_GetGamePlatforms_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlatform">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPlatform" message="tns:IService1_GetPlatform_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPlatformResponse" message="tns:IService1_GetPlatform_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameGenres">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameGenres" message="tns:IService1_GetGameGenres_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameGenresResponse" message="tns:IService1_GetGameGenres_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGenre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGenre" message="tns:IService1_GetGenre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGenreResponse" message="tns:IService1_GetGenre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameListByAccountId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameListByAccountId" message="tns:IService1_GetGameListByAccountId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameListByAccountIdResponse" message="tns:IService1_GetGameListByAccountId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFollowListByAccountId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetFollowListByAccountId" message="tns:IService1_GetFollowListByAccountId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetFollowListByAccountIdResponse" message="tns:IService1_GetFollowListByAccountId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFollowEntry">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteFollowEntry" message="tns:IService1_DeleteFollowEntry_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteFollowEntryResponse" message="tns:IService1_DeleteFollowEntry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGameListEntry">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGameListEntry" message="tns:IService1_DeleteGameListEntry_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGameListEntryResponse" message="tns:IService1_DeleteGameListEntry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewFollow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertNewFollow" message="tns:IService1_InsertNewFollow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertNewFollowResponse" message="tns:IService1_InsertNewFollow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGameList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateGameList" message="tns:IService1_UpdateGameList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateGameListResponse" message="tns:IService1_UpdateGameList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewGameList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertNewGameList" message="tns:IService1_InsertNewGameList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertNewGameListResponse" message="tns:IService1_InsertNewGameList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendListByAccountId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetFriendListByAccountId" message="tns:IService1_GetFriendListByAccountId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetFriendListByAccountIdResponse" message="tns:IService1_GetFriendListByAccountId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAccountById" message="tns:IService1_GetAccountById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAccountByIdResponse" message="tns:IService1_GetAccountById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFriend">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteFriend" message="tns:IService1_DeleteFriend_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteFriendResponse" message="tns:IService1_DeleteFriend_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFriend">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertFriend" message="tns:IService1_InsertFriend_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertFriendResponse" message="tns:IService1_InsertFriend_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFriend">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateFriend" message="tns:IService1_UpdateFriend_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateFriendResponse" message="tns:IService1_UpdateFriend_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameListByGameId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameListByGameId" message="tns:IService1_GetGameListByGameId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameListByGameIdResponse" message="tns:IService1_GetGameListByGameId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendRequests">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetFriendRequests" message="tns:IService1_GetFriendRequests_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetFriendRequestsResponse" message="tns:IService1_GetFriendRequests_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFollow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateFollow" message="tns:IService1_UpdateFollow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateFollowResponse" message="tns:IService1_UpdateFollow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendListBothAcceptedByAccountId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetFriendListBothAcceptedByAccountId" message="tns:IService1_GetFriendListBothAcceptedByAccountId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetFriendListBothAcceptedByAccountIdResponse" message="tns:IService1_GetFriendListBothAcceptedByAccountId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStudioList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetStudioList" message="tns:IService1_GetStudioList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetStudioListResponse" message="tns:IService1_GetStudioList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewStudio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertNewStudio" message="tns:IService1_InsertNewStudio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertNewStudioResponse" message="tns:IService1_InsertNewStudio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPlatforms">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAllPlatforms" message="tns:IService1_GetAllPlatforms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAllPlatformsResponse" message="tns:IService1_GetAllPlatforms_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGenres">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAllGenres" message="tns:IService1_GetAllGenres_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAllGenresResponse" message="tns:IService1_GetAllGenres_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsGameAlreadyExist">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/IsGameAlreadyExist" message="tns:IService1_IsGameAlreadyExist_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/IsGameAlreadyExistResponse" message="tns:IService1_IsGameAlreadyExist_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStudioByName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetStudioByName" message="tns:IService1_GetStudioByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetStudioByNameResponse" message="tns:IService1_GetStudioByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertNewGame" message="tns:IService1_InsertNewGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertNewGameResponse" message="tns:IService1_InsertNewGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewGamePlatform">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertNewGamePlatform" message="tns:IService1_InsertNewGamePlatform_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertNewGamePlatformResponse" message="tns:IService1_InsertNewGamePlatform_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewGameGenre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertNewGameGenre" message="tns:IService1_InsertNewGameGenre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertNewGameGenreResponse" message="tns:IService1_InsertNewGameGenre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameId" message="tns:IService1_GetGameId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameIdResponse" message="tns:IService1_GetGameId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlatformId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPlatformId" message="tns:IService1_GetPlatformId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPlatformIdResponse" message="tns:IService1_GetPlatformId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGenreId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGenreId" message="tns:IService1_GetGenreId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGenreIdResponse" message="tns:IService1_GetGenreId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequestedGames">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetRequestedGames" message="tns:IService1_GetRequestedGames_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetRequestedGamesResponse" message="tns:IService1_GetRequestedGames_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequestedStudios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetRequestedStudios" message="tns:IService1_GetRequestedStudios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetRequestedStudiosResponse" message="tns:IService1_GetRequestedStudios_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGamePlatformsList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGamePlatformsList" message="tns:IService1_GetGamePlatformsList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGamePlatformsListResponse" message="tns:IService1_GetGamePlatformsList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameGenresList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameGenresList" message="tns:IService1_GetGameGenresList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameGenresListResponse" message="tns:IService1_GetGameGenresList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAllGamePlatforms">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteAllGamePlatforms" message="tns:IService1_DeleteAllGamePlatforms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteAllGamePlatformsResponse" message="tns:IService1_DeleteAllGamePlatforms_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAllGameGenres">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteAllGameGenres" message="tns:IService1_DeleteAllGameGenres_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteAllGameGenresResponse" message="tns:IService1_DeleteAllGameGenres_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGameEntry">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGameEntry" message="tns:IService1_DeleteGameEntry_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGameEntryResponse" message="tns:IService1_DeleteGameEntry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStudio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateStudio" message="tns:IService1_UpdateStudio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateStudioResponse" message="tns:IService1_UpdateStudio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStudio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteStudio" message="tns:IService1_DeleteStudio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteStudioResponse" message="tns:IService1_DeleteStudio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewPlatform">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertNewPlatform" message="tns:IService1_InsertNewPlatform_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertNewPlatformResponse" message="tns:IService1_InsertNewPlatform_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewGenre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertNewGenre" message="tns:IService1_InsertNewGenre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertNewGenreResponse" message="tns:IService1_InsertNewGenre_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllAccounts">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAllAccounts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUniqueLogin">
+      <soap:operation soapAction="http://tempuri.org/IService1/IsUniqueLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUniqueEmail">
+      <soap:operation soapAction="http://tempuri.org/IService1/IsUniqueEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUniqueNickname">
+      <soap:operation soapAction="http://tempuri.org/IService1/IsUniqueNickname" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAccount">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccount">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAccount">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvatar">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAvatar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGamesByDateOfAddiction">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAllGamesByDateOfAddiction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameScore">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameScore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountAverageScore">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAccountAverageScore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNumberOfScores">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNumberOfScores" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSumOfNewReviews">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSumOfNewReviews" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameMembers">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameMembers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameByTitle">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameByTitle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameById">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStudioName">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetStudioName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGamePlatforms">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGamePlatforms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlatform">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPlatform" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameGenres">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameGenres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGenre">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameListByAccountId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameListByAccountId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFollowListByAccountId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetFollowListByAccountId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFollowEntry">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteFollowEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGameListEntry">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGameListEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewFollow">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertNewFollow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGameList">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateGameList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewGameList">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertNewGameList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendListByAccountId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetFriendListByAccountId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountById">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAccountById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFriend">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFriend">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFriend">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameListByGameId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameListByGameId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendRequests">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetFriendRequests" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFollow">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateFollow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFriendListBothAcceptedByAccountId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetFriendListBothAcceptedByAccountId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStudioList">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetStudioList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewStudio">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertNewStudio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPlatforms">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAllPlatforms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGenres">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAllGenres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsGameAlreadyExist">
+      <soap:operation soapAction="http://tempuri.org/IService1/IsGameAlreadyExist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStudioByName">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetStudioByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewGame">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertNewGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewGamePlatform">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertNewGamePlatform" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewGameGenre">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertNewGameGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlatformId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPlatformId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGenreId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGenreId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequestedGames">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetRequestedGames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequestedStudios">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetRequestedStudios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGamePlatformsList">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGamePlatformsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameGenresList">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameGenresList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAllGamePlatforms">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteAllGamePlatforms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAllGameGenres">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteAllGameGenres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGameEntry">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGameEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStudio">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateStudio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStudio">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteStudio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewPlatform">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertNewPlatform" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewGenre">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertNewGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

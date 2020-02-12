@@ -1,0 +1,19 @@
+﻿<Window x:Class="MyGameList.Windows.CodeValidationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyGameList.Windows"
+        mc:Ignorable="d"
+        Title="MyGameList" Height="250" Width="600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Rectangle Fill="#FF0FB200" HorizontalAlignment="Left" Height="70" Stroke="#FF0FB200" VerticalAlignment="Top" Width="592"/>
+        <TextBlock HorizontalAlignment="Left" Margin="210,17,0,0" TextWrapping="Wrap" Text="Code Validation" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="116,105,0,0" TextWrapping="Wrap" Text="Enter your code" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="CodeTextBox" HorizontalAlignment="Left" Height="23" Margin="249,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163" BorderBrush="#FF0FB200"/>
+        <Button Content="Accept" HorizontalAlignment="Left" Margin="153,158,0,0" VerticalAlignment="Top" Width="96" Height="34" Background="#FF0FB200" BorderBrush="#FF0FB200" Foreground="White" FontSize="16" Click="AcceptButton_Clicked"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="343,158,0,0" VerticalAlignment="Top" Width="96" Height="34" Background="#FF0FB200" BorderBrush="#FF0FB200" Foreground="White" FontSize="16" Click="CancelButton_Clicked"/>
+        <TextBlock x:Name="CodeErrorTextBlock" Foreground="Red" HorizontalAlignment="Left" Margin="417,109,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyGameList.Pages"
+      xmlns:Models="clr-namespace:MyGameList.Models" x:Class="MyGameList.Pages.AdministrativePanelRequestedGamesPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1200"
+      Title="AdministrativePanelRequestedGamesPage" Background="White">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="24,21,0,0" TextWrapping="Wrap" Text="Requested Games" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <Separator HorizontalAlignment="Left" Height="6" Margin="10,53,0,0" VerticalAlignment="Top" Width="1180"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="661" Margin="0,59,0,0" VerticalAlignment="Top" Width="1200" VerticalScrollBarVisibility="Auto">
+            <WrapPanel x:Name="RequestedGamesWrapPanel" ItemHeight="260" ItemWidth="190" Width="1200"/>
+        </ScrollViewer>
+    </Grid>
+</Page>

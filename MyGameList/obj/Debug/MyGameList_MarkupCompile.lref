@@ -1,0 +1,47 @@
+﻿
+
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\AppWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\MainWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Models\FriendElement.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Models\HistoryElement.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Models\InfoOverlay.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Models\NewReviewElement.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Models\RecentFriendUpdate.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Models\ReviewElement.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\AccountPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\AdministrativePanelModeratorPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\AdministrativePanelPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\AdministrativePanelRequestedGamesPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\AdministrativePanelRequestedStudiosPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\FriendRequestsPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\GameListPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\HistoryPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\FriendsPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\ReviewPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\GamePage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\NewReviewPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\LoginPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\MenuPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\NotificationPanelPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\RegisterPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Pages\SearchPage.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\AddingGameToGamelistWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\AddNewGenreWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\AddNewPlatformWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\AdministrativePanelGameWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\AdministrativePanelStudioWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\CodeValidationWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\DeleteFromFollowConfirmationWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\DeleteFromGameListConfirmationWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\DeleteGameWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\DemoteToNormalWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\EditAccountWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\EditingGameFromGameListWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\LoginValidationWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\MarkAsReadedConfirmationWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\PasswordChangerWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\PromoteToModeratorWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\RequestGameWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\RequestStudioWindow.xaml;;
+FC:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\Windows\MessageWindow.xaml;;
+

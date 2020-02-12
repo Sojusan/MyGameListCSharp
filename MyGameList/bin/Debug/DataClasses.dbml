@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database" Class="DataClassesDataContext" Serialization="Unidirectional" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\WcfServiceLibrary\Database.mdf&quot;;Integrated Security=True;Connect Timeout=30" SettingsObjectName="WcfServiceLibrary.Properties.Settings" SettingsPropertyName="DatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Account" Member="Accounts">
+    <Type Name="Account">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Login" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Nickname" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Sex" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="Joined" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Avatar" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="IsModerator" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActivated" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Account_Follow" Member="Follows" ThisKey="Id" OtherKey="Account_Id" Type="Follow" />
+      <Association Name="Account_Friend" Member="Friends" ThisKey="Id" OtherKey="Account_Id" Type="Friend" />
+      <Association Name="Account_Friend1" Member="Friends1" ThisKey="Id" OtherKey="Friend_Id" Type="Friend" />
+      <Association Name="Account_GameList" Member="GameLists" ThisKey="Id" OtherKey="Account_Id" Type="GameList" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Follow" Member="Follows">
+    <Type Name="Follow">
+      <Column Name="Account_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Game_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NewReview" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfFollowing" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Account_Follow" Member="Account" ThisKey="Account_Id" OtherKey="Id" Type="Account" IsForeignKey="true" />
+      <Association Name="Game_Follow" Member="Game" ThisKey="Game_Id" OtherKey="Id" Type="Game" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Friend" Member="Friends">
+    <Type Name="Friend">
+      <Column Name="Account_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Friend_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DateOfAdding" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="IsAcceptedByBoth" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Account_Friend" Member="Account" ThisKey="Account_Id" OtherKey="Id" Type="Account" IsForeignKey="true" />
+      <Association Name="Account_Friend1" Member="Account1" ThisKey="Friend_Id" OtherKey="Id" Type="Account" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Game" Member="Games">
+    <Type Name="Game">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Studio_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Publisher" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Image" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Premiere" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateOfAddiction" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="IsAccepted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Game_Follow" Member="Follows" ThisKey="Id" OtherKey="Game_Id" Type="Follow" />
+      <Association Name="Game_Game_genre" Member="Game_genres" ThisKey="Id" OtherKey="Game_Id" Type="Game_genre" />
+      <Association Name="Game_Game_platform" Member="Game_platforms" ThisKey="Id" OtherKey="Game_Id" Type="Game_platform" />
+      <Association Name="Game_GameList" Member="GameLists" ThisKey="Id" OtherKey="Game_Id" Type="GameList" />
+      <Association Name="Studio_Game" Member="Studio" ThisKey="Studio_Id" OtherKey="Id" Type="Studio" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Game_genre" Member="Game_genres">
+    <Type Name="Game_genre">
+      <Column Name="Game_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Genre_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Game_Game_genre" Member="Game" ThisKey="Game_Id" OtherKey="Id" Type="Game" IsForeignKey="true" />
+      <Association Name="Genre_Game_genre" Member="Genre" ThisKey="Genre_Id" OtherKey="Id" Type="Genre" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Game_platform" Member="Game_platforms">
+    <Type Name="Game_platform">
+      <Column Name="Game_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Platform_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Game_Game_platform" Member="Game" ThisKey="Game_Id" OtherKey="Id" Type="Game" IsForeignKey="true" />
+      <Association Name="Platform_Game_platform" Member="Platform" ThisKey="Platform_Id" OtherKey="Id" Type="Platform" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GameList" Member="GameLists">
+    <Type Name="GameList">
+      <Column Name="Account_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Game_Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Score" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Review" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateOfAddingReview" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DateOfAddition" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Game_GameList" Member="Game" ThisKey="Game_Id" OtherKey="Id" Type="Game" IsForeignKey="true" />
+      <Association Name="Account_GameList" Member="Account" ThisKey="Account_Id" OtherKey="Id" Type="Account" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Genre" Member="Genres">
+    <Type Name="Genre">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Genre" Member="Genre1" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Genre_Game_genre" Member="Game_genres" ThisKey="Id" OtherKey="Genre_Id" Type="Game_genre" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Platform" Member="Platforms">
+    <Type Name="Platform">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Platform" Member="Platform1" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="Platform_Game_platform" Member="Game_platforms" ThisKey="Id" OtherKey="Platform_Id" Type="Game_platform" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Studio" Member="Studios">
+    <Type Name="Studio">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Studio" Member="Studio1" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Indie" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsAccepted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Studio_Game" Member="Games" ThisKey="Id" OtherKey="Studio_Id" Type="Game" />
+    </Type>
+  </Table>
+  <Function Name="dbo.account_avg_score" Method="account_avg_score" IsComposable="true">
+    <Parameter Name="NR" Parameter="nR" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Decimal" />
+  </Function>
+  <Function Name="dbo.avg_score" Method="avg_score" IsComposable="true">
+    <Parameter Name="NR" Parameter="nR" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Decimal" />
+  </Function>
+  <Function Name="dbo.number_of_game_entries" Method="number_of_game_entries" IsComposable="true">
+    <Parameter Name="NR" Parameter="nR" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.number_of_scores" Method="number_of_scores" IsComposable="true">
+    <Parameter Name="NR" Parameter="nR" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sum_of_newreviews" Method="sum_of_newreviews" IsComposable="true">
+    <Parameter Name="NR" Parameter="nR" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

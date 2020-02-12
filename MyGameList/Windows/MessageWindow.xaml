@@ -1,0 +1,16 @@
+﻿<Window x:Class="MyGameList.Windows.MessageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyGameList.Windows"
+        mc:Ignorable="d"
+        Title="MyGameList" Height="250" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Rectangle Fill="#FF0FB200" HorizontalAlignment="Left" Height="70" Stroke="#FF0FB200" VerticalAlignment="Top" Width="392"/>
+        <TextBlock x:Name="HeaderTextBlock" HorizontalAlignment="Left" Margin="79,19,0,0" TextWrapping="Wrap" Text="Successfully Created !" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Foreground="#FFFFFFFF"/>
+        <TextBlock x:Name="BodyTextBlock" HorizontalAlignment="Left" Margin="10,93,0,0" TextWrapping="Wrap" Text="Your account was successfully created. On your first login attempt we will send you a activation code on your email." VerticalAlignment="Top" TextAlignment="Center"/>
+        <Button Content="Ok" HorizontalAlignment="Left" Margin="130,153,0,0" VerticalAlignment="Top" Width="117" Height="44" Background="#FF0FB200" BorderBrush="#FF0FB200" Foreground="#FFFFFFFF" FontWeight="Bold" FontSize="24" Click="Button_Click"/>
+
+    </Grid>
+</Window>

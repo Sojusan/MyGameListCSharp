@@ -1,0 +1,21 @@
+﻿<Page x:Class="MyGameList.Pages.AdministrativePanelRequestedStudiosPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyGameList.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1200"
+      Title="AdministrativePanelRequestedStudiosPage" Background="White">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="22,19,0,0" TextWrapping="Wrap" Text="Studios" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <Separator HorizontalAlignment="Left" Height="6" Margin="10,51,0,0" VerticalAlignment="Top" Width="1180"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="663" Margin="0,57,0,0" VerticalAlignment="Top" Width="1200">
+            <WrapPanel x:Name="RequestedStudiosWrapPanel" Width="1200">
+            </WrapPanel>
+        </ScrollViewer>
+        <Button Click="RequestedStudiosButton_Clicked" Cursor="Hand" Background="White" Foreground="#FF0FB200" Content="Requested Studios" HorizontalAlignment="Left" Margin="439,10,0,0" VerticalAlignment="Top"/>
+        <Button Click="StudiosButton_Clicked" Cursor="Hand" Foreground="#FF0FB200" Content="Studios" HorizontalAlignment="Left" Margin="622,10,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.337,0.011" Background="White"/>
+    </Grid>
+</Page>

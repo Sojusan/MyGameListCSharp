@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 13.5, 8.5" name="DataClasses">
+  <DataContextMoniker Name="/DataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b8454ec4-5834-4c42-aaf0-7fc25c26d805" absoluteBounds="0.5, 0.875, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/DataClassesDataContext/Account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="061e31ff-080b-47a8-8755-5dc127286d6a" absoluteBounds="0.51499999999999968, 1.335, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0437275-e781-4edb-bff2-80c7d4d4768e" absoluteBounds="3.125, 1, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClassesDataContext/Follow" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f9015389-e845-446d-a3d1-0dc96d62ead6" absoluteBounds="3.1399999999999997, 1.4600000000000009, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53725eb9-f24c-4f9f-be17-a567c27360bd" absoluteBounds="0.75, 4.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClassesDataContext/Friend" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0aa1a1e6-08c3-4e86-afc4-375e6e8b281e" absoluteBounds="0.76500000000000057, 4.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dff07ba1-9c5d-4e60-92bd-c336f3a6edb6" absoluteBounds="6.125, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DataClassesDataContext/Game" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e8e7e44-ce38-4e72-b69d-d20725fc626d" absoluteBounds="6.1400000000000006, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="91fbb888-1d6a-4742-a15c-0c2f37a82c3a" absoluteBounds="8.625, 2.625, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/DataClassesDataContext/Game_genre" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c93aad2-50c2-462b-bb7d-88b9b7a22128" absoluteBounds="8.64, 3.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5b947873-a344-4a8d-976b-710722903953" absoluteBounds="8.5, 1.125, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/DataClassesDataContext/Game_platform" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09d32d4c-47f9-4cfc-9ed0-a7cd69deda13" absoluteBounds="8.515, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="98fc13e0-7b0c-4e6c-8a86-345374e57c86" absoluteBounds="3.5, 4, 2, 2.1554996744791657">
+      <DataClassMoniker Name="/DataClassesDataContext/GameList" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1fe00f4a-3964-4dc7-ba49-9e20d85c4a88" absoluteBounds="3.5150000000000006, 4.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f64fa58-4e11-4f7b-ba46-21859df4c065" absoluteBounds="11.25, 2.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DataClassesDataContext/Genre" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f95e9785-247e-4d5e-9233-36d7737547ea" absoluteBounds="11.265, 3.2100000000000009, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="77694a68-dbc4-4d96-bafb-4718cb8fe46b" absoluteBounds="11.125, 1, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/DataClassesDataContext/Platform" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb83f968-6d3a-454d-9397-75ebd466cfb0" absoluteBounds="11.14, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d748684f-f247-4d7f-a53f-3026e07f6676" absoluteBounds="6.75, 4.5, 2, 1.5785953776041657">
+      <DataClassMoniker Name="/DataClassesDataContext/Studio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7377f61-5882-42ef-a4f2-bd929f302be7" absoluteBounds="6.765, 4.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 1.78929768880208); (3.125 : 1.78929768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Account/Account_Follow" />
+      <nodes>
+        <classShapeMoniker Id="b8454ec4-5834-4c42-aaf0-7fc25c26d805" />
+        <classShapeMoniker Id="a0437275-e781-4edb-bff2-80c7d4d4768e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.625 : 3.79970540364583); (1.625 : 4.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Account/Account_Friend" />
+      <nodes>
+        <classShapeMoniker Id="b8454ec4-5834-4c42-aaf0-7fc25c26d805" />
+        <classShapeMoniker Id="53725eb9-f24c-4f9f-be17-a567c27360bd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.125 : 3.79970540364583); (2.125 : 4.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Account/Account_Friend1" />
+      <nodes>
+        <classShapeMoniker Id="b8454ec4-5834-4c42-aaf0-7fc25c26d805" />
+        <classShapeMoniker Id="53725eb9-f24c-4f9f-be17-a567c27360bd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.125 : 1.78929768880208); (5.125 : 1.78929768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Game/Game_Follow" />
+      <nodes>
+        <classShapeMoniker Id="dff07ba1-9c5d-4e60-92bd-c336f3a6edb6" />
+        <classShapeMoniker Id="a0437275-e781-4edb-bff2-80c7d4d4768e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.125 : 3.08255126953125); (8.625 : 3.08255126953125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Game/Game_Game_genre" />
+      <nodes>
+        <classShapeMoniker Id="dff07ba1-9c5d-4e60-92bd-c336f3a6edb6" />
+        <classShapeMoniker Id="91fbb888-1d6a-4742-a15c-0c2f37a82c3a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.125 : 1.72199625651042); (8.5 : 1.72199625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Game/Game_Game_platform" />
+      <nodes>
+        <classShapeMoniker Id="dff07ba1-9c5d-4e60-92bd-c336f3a6edb6" />
+        <classShapeMoniker Id="5b947873-a344-4a8d-976b-710722903953" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.125 : 3.09059895833333); (5.34375 : 3.09059895833333); (5.34375 : 4)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Game/Game_GameList" />
+      <nodes>
+        <classShapeMoniker Id="dff07ba1-9c5d-4e60-92bd-c336f3a6edb6" />
+        <classShapeMoniker Id="98fc13e0-7b0c-4e6c-8a86-345374e57c86" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 3.44515218098958); (5.2343725 : 3.44515218098958); (5.2343725 : 4)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Account/Account_GameList" />
+      <nodes>
+        <classShapeMoniker Id="b8454ec4-5834-4c42-aaf0-7fc25c26d805" />
+        <classShapeMoniker Id="98fc13e0-7b0c-4e6c-8a86-345374e57c86" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 3.28449625651042); (10.625 : 3.28449625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Genre/Genre_Game_genre" />
+      <nodes>
+        <classShapeMoniker Id="7f64fa58-4e11-4f7b-ba46-21859df4c065" />
+        <classShapeMoniker Id="91fbb888-1d6a-4742-a15c-0c2f37a82c3a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.125 : 1.65949625651042); (10.5 : 1.65949625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Platform/Platform_Game_platform" />
+      <nodes>
+        <classShapeMoniker Id="77694a68-dbc4-4d96-bafb-4718cb8fe46b" />
+        <classShapeMoniker Id="5b947873-a344-4a8d-976b-710722903953" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.4375 : 4.5); (7.4375 : 3.5401025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClassesDataContext/Studio/Studio_Game" />
+      <nodes>
+        <classShapeMoniker Id="d748684f-f247-4d7f-a53f-3026e07f6676" />
+        <classShapeMoniker Id="dff07ba1-9c5d-4e60-92bd-c336f3a6edb6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,208 @@
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.csprojAssemblyReference.cache
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MainWindow.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\RegisterPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\App.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList_MarkupCompile.cache
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList_MarkupCompile.lref
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\MyGameList.exe.config
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\MyGameList.exe
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\MyGameList.pdb
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MainWindow.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\LoginPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\RegisterPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.g.resources
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.Properties.Resources.resources
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.csproj.GenerateResource.cache
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.csproj.CoreCompileInputs.cache
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.exe
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.pdb
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\AppWindow.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\AppWindow.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\MenuPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\MenuPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\SearchPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\SearchPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AccountPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AccountPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfInput.WPF.dll
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfShared.Wpf.dll
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfInput.WPF.xml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfShared.Wpf.xml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\GamePage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\GamePage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.csproj.CopyComplete
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfImageEditor.WPF.dll
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.Shared.Wpf.dll
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfImageEditor.WPF.xml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.Shared.Wpf.xml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\WpfAnimatedGif.xml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\NotificationPanelPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\NotificationPanelPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\GameListPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\HistoryPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\GameListPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\HistoryPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfHubTile.WPF.dll
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfHubTile.WPF.xml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\FriendRequestsPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\FriendsPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\ReviewPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\NewReviewPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\FriendRequestsPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\FriendsPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\ReviewPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\NewReviewPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\InfoOverlay.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\InfoOverlay.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelModeratorPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelRequestedGamesPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelRequestedStudiosPage.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddingGameToGamelistWindow.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddNewGenreWindow.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddNewPlatformWindow.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AdministrativePanelGameWindow.g.cs
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelModeratorPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelRequestedGamesPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelRequestedStudiosPage.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddingGameToGamelistWindow.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddNewGenreWindow.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddNewPlatformWindow.baml
+C:\Users\Rafał\Desktop\C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AdministrativePanelGameWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\MyGameList.exe.config
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\MyGameList.exe
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\MyGameList.pdb
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfHubTile.WPF.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfImageEditor.WPF.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfInput.WPF.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfShared.Wpf.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.Shared.Wpf.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\WcfServiceLibrary.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\WindowsService.exe
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\WcfServiceLibrary.pdb
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\WcfServiceLibrary.dll.config
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\WindowsService.pdb
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\WindowsService.exe.config
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfHubTile.WPF.xml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfImageEditor.WPF.xml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfInput.WPF.xml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.SfShared.Wpf.xml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Syncfusion.Shared.Wpf.xml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\WpfAnimatedGif.xml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.csprojAssemblyReference.cache
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\AppWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MainWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\InfoOverlay.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AccountPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelModeratorPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelRequestedGamesPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelRequestedStudiosPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\FriendRequestsPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\GameListPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\HistoryPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\FriendsPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\ReviewPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\GamePage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\NewReviewPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\MenuPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\NotificationPanelPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\RegisterPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\SearchPage.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddingGameToGamelistWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddNewGenreWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddNewPlatformWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AdministrativePanelGameWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AdministrativePanelStudioWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\CodeValidationWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\DeleteFromFollowConfirmationWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\DeleteFromGameListConfirmationWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\DeleteGameWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\DemoteToNormalWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\EditAccountWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\EditingGameFromGameListWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\LoginValidationWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\MarkAsReadedConfirmationWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\PasswordChangerWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\PromoteToModeratorWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\RequestGameWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\RequestStudioWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\App.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList_MarkupCompile.cache
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList_MarkupCompile.lref
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\AppWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MainWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\InfoOverlay.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AccountPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelModeratorPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelRequestedGamesPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\AdministrativePanelRequestedStudiosPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\FriendRequestsPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\GameListPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\HistoryPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\FriendsPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\ReviewPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\GamePage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\NewReviewPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\LoginPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\MenuPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\NotificationPanelPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\RegisterPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Pages\SearchPage.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddingGameToGamelistWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddNewGenreWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AddNewPlatformWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AdministrativePanelGameWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\AdministrativePanelStudioWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\CodeValidationWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\DeleteFromFollowConfirmationWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\DeleteFromGameListConfirmationWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\DeleteGameWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\DemoteToNormalWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\EditAccountWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\EditingGameFromGameListWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\LoginValidationWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\MarkAsReadedConfirmationWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\PasswordChangerWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\PromoteToModeratorWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\RequestGameWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\RequestStudioWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.g.resources
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.Properties.Resources.resources
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.csproj.GenerateResource.cache
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.csproj.CoreCompileInputs.cache
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.csproj.CopyComplete
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.exe
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\MyGameList.pdb
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\MessageWindow.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Windows\MessageWindow.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Database.mdf
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Database_log.ldf
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\HistoryElement.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\HistoryElement.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\FriendElement.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\FriendElement.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\ReviewElement.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\ReviewElement.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\NewReviewElement.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\NewReviewElement.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\RecentFriendUpdate.g.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\obj\Debug\Models\RecentFriendUpdate.baml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\Resources\MyGameListIcon.ico
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\DataClasses.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\DataClasses.designer.cs
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\DataClasses.dbml
+C:\Users\Rafał\Desktop\Projekt C#\MyGameList\MyGameList\MyGameList\bin\Debug\DataClasses.dbml.layout
